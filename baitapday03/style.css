@@ -1,0 +1,31 @@
+*{
+    
+    font-family: 'Roboto', sans-serif;
+    background-color: #464646;
+}
+ul li{
+    margin: 8px;
+    color: #919294;
+    font-size: 14px;
+    list-style: none;
+    
+}
+ul{
+    text-align: center;
+
+}
+a:hover{
+    color: aqua;
+}
+.title{
+    color: aliceblue;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 28px;
+    color: #919294;
+}
