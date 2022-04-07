@@ -1,20 +1,23 @@
 *{
-    
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #464646;
+
 }
 ul li{
     margin: 8px;
+    margin-left: 0;
     color: #919294;
-    font-size: 14px;
+    font-size: 18px;
     list-style: none;
 }
 ul{
-    text-align: center;
+    
+    padding-left: 0;
 }
 a{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
     color: #919294;
 }
 a:hover{
@@ -30,9 +33,96 @@ a:hover{
 }
 .icon{
     display: flex;
-    justify-content: space-between;
     font-size: 28px;
     color: #919294;
     width: 300px;
     margin: auto;
 }
+.icon i{
+    margin-right: 30px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    width: 1200px;
+   
+    margin: auto;
+
+
+}
+.footer-item{
+    flex-basis: 25%;
+}
+footer{
+    background-color: #464646;
+}
+
+
+
+
+
+/*  */
+body {
+    font-family: "Roboto";
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.card {
+    margin: auto;
+    margin-top: 100px;
+
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    flex-basis: 30%;
+  
+
+}
+
+.content {
+    padding: 20px;
+}
+
+.title {
+    color: #464646;
+    font-size: 19px;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.description {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 16px;
+}
+
+.rating {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.rating span {
+    color: #ffd600;
+}
+.page-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    
+
+}
+
+

@@ -1,0 +1,40 @@
+.text{
+    font-size: 2rem;
+}
+:root{
+    --color-text: #32a852;
+    --color-heading: #3e2d7d;
+    --with : 100px;
+    --height: 100px;
+}
+.box p{
+    font-size: 3em;
+}
+.box{
+    font-size: 20px;
+    width: 50vw;
+   
+
+}
+.parent{
+    width: calc(var(--with)*10);
+
+    width: 1000px;
+    height: 500px;
+    background-color: #b52878;
+    
+}
+.children{
+    width: 50%;
+    height: 100%;
+    background-color: #3e2d7d;
+    
+}
+.text{
+    color: var(--color-heading);
+}
+.text-1{
+    --color-text:#b52878;
+    font-size: 2rem;
+    color: var(--color-heading);
+}

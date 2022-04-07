@@ -1,0 +1,67 @@
+*{
+ 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.card{
+    width: 420px;
+    margin: auto;
+    margin-top: 50px;
+}
+.year{
+    background-color: #ef5321;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding: 6px 0;
+
+}
+.year p {
+    font-weight: 300;
+}
+.date{
+    background-color: #fe6d3f;
+    text-align: center;
+    color: #fff;
+    padding: 36px 0;
+}
+.date h2 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: center;
+}
+.date p{
+    font-weight: 300;
+    font-size: 21px;
+
+}
+.content{
+    box-shadow: 0  4px 4px rgb(0 0 0/15%);
+    padding: 24px;
+}
+.content h2{
+    color: #464646;
+    font-size: 21px;
+    font-weight: 400;
+    padding-left: 12px;
+}
+.info{
+    border-bottom: 1px solid #464646;
+    margin-bottom: 10px ;
+    padding: 17px;
+}
+.info >p {
+    padding: 7px;
+    color: #464646;
+    font-weight: 300;
+    font-size: 14px;
+}

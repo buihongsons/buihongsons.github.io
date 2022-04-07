@@ -38,6 +38,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    float: left;
+    margin-left: 12px;
 }
 .btn-submit{
    display: block;
