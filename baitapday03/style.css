@@ -24,6 +24,9 @@ a:hover{
     color: #919294;
     text-decoration: underline;
 }
+h2 a:hover{
+ text-decoration: none;
+}
 .title{
     color: aliceblue;
     font-size: 18px;
@@ -90,7 +93,11 @@ img {
 .content {
     padding: 20px;
 }
-
+.course-description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .title {
     color: #464646;
     font-size: 19px;
@@ -114,7 +121,7 @@ img {
 .rating span {
     color: #ffd600;
 }
-.page-content{
+.page-content{  
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -125,4 +132,13 @@ img {
 
 }
 
-
+.item-image{
+    width: 100%;
+    height: 100%;
+}
+.image{
+    height: 221px;
+}
+.link{
+    color: #464646;
+}
