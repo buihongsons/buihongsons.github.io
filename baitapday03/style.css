@@ -8,7 +8,7 @@ ul li{
     margin: 8px;
     margin-left: 0;
     color: #919294;
-    font-size: 18px;
+    font-size: 14px;
     list-style: none;
 }
 ul{
@@ -17,7 +17,7 @@ ul{
 }
 a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     color: #919294;
 }
 a:hover{
@@ -78,7 +78,7 @@ img {
 
 .card {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 30px;
 
     box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
 
@@ -99,7 +99,7 @@ img {
     align-items: center;
 }
 .title {
-    color: #464646;
+    color: #919294;
     font-size: 19px;
     margin-bottom: 16px;
     font-weight: 400;
@@ -128,6 +128,9 @@ img {
     width: 1200px;
     margin: auto;
     flex-wrap: wrap;
+    
+    margin-bottom: 30px;
+
     
 
 }
