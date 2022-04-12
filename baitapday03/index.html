@@ -1,50 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- link icon -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- link gg font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="page">
-      <div class="page-content">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- link icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- link gg font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="header">
+    <div class="logo">
+      <img src="https://techmaster.vn/resources/image/logo-techmaster/white/white_200x74.png" alt="logo" />
+    </div>
+    <div class="sidebar">
+      <div class="menu">
+        <ul>
+          <li class="menu-item">
+            LỘ TRÌNH
+            <span><i class="fa-solid fa-caret-down"></i></span>
+            <ul class="sub-menu">
+              <li class="sub-menu-item">Front End + React</li>
+              <li class="sub-menu-item">Java Spring Boot FullStack</li>
+              <li class="sub-menu-item">Lộ trình IOS</li>
+              <li class="sub-menu-item">Di động React Native</li>
+            </ul>
+          </li>
+          <li class="menu-item">DOANH NGHIỆP</li>
+          <li class="menu-item">
+            KHÓA HỌC
+            <span><i class="fa-solid fa-caret-down"></i></span>
+            <ul class="sub-menu">
+              <li class="sub-menu-item">On Lab</li>
+              <li class="sub-menu-item">Trực Tuyến</li>
+
+            </ul>
+          </li>
+          <li class="menu-item">SẢN PHẨM HỌC VIÊN</li>
+          <li class="menu-item">KHAI GIẢNG</li>
+          <li class="menu-item">BLOG</li>
+          <li class="menu-item">TRẢI NGHIỆM</li>
+          <li class="menu-item">
+            Chúng Tôi
+            <span><i class="fa-solid fa-caret-down"></i></span>
+            <ul class="sub-menu">
+              <li class="sub-menu-item">Trung Tâm</li>
+              <li class="sub-menu-item">Quy Định Chung</li>
+              <li class="sub-menu-item">Giảng Viên</li>
+              <li class="sub-menu-item">Hướng Dẫn Đăng Ký Học</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="cart">
+        <span class="cart-icon">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </span>
+        <span class="cart-number">0</span>
+      </div>
+
+      <div class="avata">
+        <img src="https://techmaster.vn/resources/image/anonymous-user.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="page">
+    <div class="page-content">
 
 
-    <!-- card 1 -->
-        <div class="card">
-          <a href="./about1.html" target="_blank" class="link">
+
+      <!-- card 1 -->
+      <div class="card">
+        <a href="./about1.html" target="_blank" class="link">
           <div class="image">
-              <img src="https://media.techmaster.vn/api/static/6734/bsckujs51cob9t3q7mi0" alt="anh khoa hoc" class="item-image">
+            <img src="https://media.techmaster.vn/api/static/6734/bsckujs51cob9t3q7mi0" alt="anh khoa hoc"
+              class="item-image">
           </div>
-  
+
           <div class="content">
-              <h2 class="title">
-                  Khoá học Kubernetes căn bản qua các ví dụ
-              </h2>
-              <div class="course-description">
-                <p class="description">Trực tuyến</p>
-                <p class="rating">
-                  5 
-                  <span><i class="fa-solid fa-star"></i></span>
-                </p>
-              </div>
+            <h2 class="title">
+              Khoá học Kubernetes căn bản qua các ví dụ
+            </h2>
+            <div class="course-description">
+              <p class="description">Trực tuyến</p>
+              <p class="rating">
+                5
+                <span><i class="fa-solid fa-star"></i></span>
+              </p>
+            </div>
           </div>
         </a>
       </div>
@@ -53,137 +108,141 @@
       <!-- card 2 -->
       <div class="card">
         <a href="./about2.html" target="_blank" class="link">
-        <div class="image">
-            <img src="https://media.techmaster.vn/api/static/bub3enc51co7s932dsk0/bjxnxQi0" alt="anh khoa hoc" class="item-image">
-        </div>
+          <div class="image">
+            <img src="https://media.techmaster.vn/api/static/bub3enc51co7s932dsk0/bjxnxQi0" alt="anh khoa hoc"
+              class="item-image">
+          </div>
 
-        <div class="content">
+          <div class="content">
             <h2 class="title">
-                Lập trình iOS Swift căn bản cập nhật 2022
+              Lập trình iOS Swift căn bản cập nhật 2022
             </h2>
             <div class="course-description">
               <p class="description">Trực tuyến</p>
               <p class="rating">
-                5 
+                5
                 <span><i class="fa-solid fa-star"></i></span>
               </p>
             </div>
-        </div>
-      </a>
+          </div>
+        </a>
+      </div>
+
+
+      <!-- card 3 -->
+      <div class="card">
+        <a href="./about3.html" target="_blank" class="link">
+          <div class="image">
+            <img src="https://media.techmaster.vn/api/static/c2m5ou451cob24f6skeg/xQSZ4zy3"
+              alt="Web Frontend nâng cao với React" class="item-image">
+          </div>
+
+          <div class="content">
+            <h2 class="title">
+              Web Frontend nâng cao với React
+            </h2>
+            <div class="course-description">
+              <p class="description">Trực tuyến</p>
+              <p class="rating">
+                5
+                <span><i class="fa-solid fa-star"></i></span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+
+
+      <!-- card 4 -->
+      <div class="card">
+        <a href="./about4.html" target="_blank" class="link">
+          <div class="image">
+            <img src="https://media.techmaster.vn/api/static/bub3enc51co7s932dsk0/93NQ8U6F" alt="DevOps 2022"
+              class="item-image">
+          </div>
+
+          <div class="content">
+            <h2 class="title">
+              DevOps 2022
+            </h2>
+            <div class="course-description">
+              <p class="description">Trực tuyến</p>
+              <p class="rating">
+                5
+                <span><i class="fa-solid fa-star"></i></span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- card 5 -->
+      <div class="card">
+        <a href="./about5.html" target="_blank" class="link">
+          <div class="image">
+            <img src="https://media.techmaster.vn/api/static/36/bu7vt2451co5836g4l70"
+              alt="Thiết kế - Lập trình cơ sở dữ liệu" class="item-image">
+          </div>
+
+          <div class="content">
+            <h2 class="title">
+              Thiết kế - Lập trình cơ sở dữ liệu
+            </h2>
+            <div class="course-description">
+              <p class="description">Trực tuyến</p>
+              <p class="rating">
+                5
+                <span><i class="fa-solid fa-star"></i></span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+
+
+      <!-- card 6 -->
+      <div class="card">
+        <a href="./about6.html" target="_blank" class="link">
+          <div class="image">
+            <img src="https://media.techmaster.vn/api/static/8028/bqa348s51cocm3n1ubq0" alt="anh khoa hoc"
+              class="item-image">
+          </div>
+          <div class="content">
+            <h2 class="title">
+              Lập trình di động IOS Swift online
+            </h2>
+            <div class="course-description">
+              <p class="description">Trực tuyến</p>
+              <p class="rating">
+                5
+                <span><i class="fa-solid fa-star"></i></span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+
+
     </div>
 
 
-    <!-- card 3 -->
-    <div class="card">
-      <a href="./about3.html" target="_blank" class="link">
-      <div class="image">
-        <img src="https://media.techmaster.vn/api/static/c2m5ou451cob24f6skeg/xQSZ4zy3" alt="Web Frontend nâng cao với React" class="item-image"> 
-      </div>
 
-      <div class="content">
-          <h2 class="title">
-              Web Frontend nâng cao với React
-          </h2>
-          <div class="course-description">
-            <p class="description">Trực tuyến</p>
-            <p class="rating">
-              5 
-              <span><i class="fa-solid fa-star"></i></span>
-            </p>
-          </div>
-      </div>
-    </a>
+
   </div>
 
 
 
-  <!-- card 4 -->
-  <div class="card">
-    <a href="./about4.html" target="_blank" class="link">
-    <div class="image">
-      <img src="https://media.techmaster.vn/api/static/bub3enc51co7s932dsk0/93NQ8U6F" alt="DevOps 2022" class="item-image">
-    </div>
-
-    <div class="content">
-        <h2 class="title">
-            DevOps 2022
-        </h2>
-        <div class="course-description">
-          <p class="description">Trực tuyến</p>
-          <p class="rating">
-            5 
-            <span><i class="fa-solid fa-star"></i></span>
-          </p>
-        </div>
-    </div>
-  </a>
-</div>
-  
-  <!-- card 5 -->
-      <div class="card">
-        <a href="./about5.html" target="_blank" class="link">
-          <div class="image">
-            <img src="https://media.techmaster.vn/api/static/36/bu7vt2451co5836g4l70" alt="Thiết kế - Lập trình cơ sở dữ liệu" class="item-image">
-          </div>
-  
-          <div class="content">
-              <h2 class="title">
-                  Thiết kế - Lập trình cơ sở dữ liệu
-              </h2>
-              <div class="course-description">
-                <p class="description">Trực tuyến</p>
-                <p class="rating">
-                  5 
-                  <span><i class="fa-solid fa-star"></i></span>
-                </p>
-              </div>
-          </div>
-        </a>
-      </div>
-  
-  
-  
-  <!-- card 6 -->
-      <div class="card">
-        <a href="./about6.html" target="_blank" class="link">
-          <div class="image">
-            <img src="https://media.techmaster.vn/api/static/8028/bqa348s51cocm3n1ubq0" alt="anh khoa hoc" class="item-image">
-        </div>
-        <div class="content">
-            <h2 class="title">
-                Lập trình di động IOS Swift online
-            </h2>
-            <div class="course-description">
-              <p class="description">Trực tuyến</p>
-              <p class="rating">
-                5 
-                <span><i class="fa-solid fa-star"></i></span>
-              </p>
-            </div>
-        </div>
-        </a>
-      </div>
-
-
-
-      </div>
-
-
-
-
-    </div>
-
-
-
-<!-- footer -->
-      <footer>
+  <!-- footer -->
+  <footer>
     <div class="footer">
       <div class="footer-item">
         <ul>
           <h4 class="title">Chủ sở hữu website</h4>
           <li>
-            <a href="https://techmaster.vn/" target="_blank"
-              >Công ty TNHH TechMaster Vietnam Ltd
+            <a href="https://techmaster.vn/" target="_blank">Công ty TNHH TechMaster Vietnam Ltd
             </a>
           </li>
           <li>Số ĐKDN: 0105392153</li>
@@ -194,46 +253,29 @@
         </ul>
       </div>
 
-      <div class="footer-item" > 
+      <div class="footer-item">
         <ul>
           <h4 class="title">Giới thiệu</h4>
           <li>
-            <a href="https://techmaster.vn/trungtam/trung-tam" target="_blank"
-              >Học viện CNTT TechMaster
+            <a href="https://techmaster.vn/trungtam/trung-tam" target="_blank">Học viện CNTT TechMaster
             </a>
           </li>
           <li>
-            <a href="https://techmaster.vn/trungtam/giang-vien" target="_blank"
-              >Giảng viên</a
-            >
+            <a href="https://techmaster.vn/trungtam/giang-vien" target="_blank">Giảng viên</a>
           </li>
           <li>
-            <a
-              href="https://techmaster.vn/trungtam/quy-dinh-chung"
-              target="_blank"
-              >Quy định</a
-            >
+            <a href="https://techmaster.vn/trungtam/quy-dinh-chung" target="_blank">Quy định</a>
           </li>
           <li>
-            <a
-              href="https://techmaster.vn/trungtam/huong-dan-mua-khoa-hoc"
-              target="_blank"
-              >Hướng dẫn mua khóa học</a
-            >
+            <a href="https://techmaster.vn/trungtam/huong-dan-mua-khoa-hoc" target="_blank">Hướng dẫn mua khóa học</a>
           </li>
           <li>
-            <a
-              href="https://techmaster.vn/trungtam/uu-dai-va-hoan-tra-hoc-phi"
-              target="_blank"
-              >Ưu đãi và hoàn trả học phí</a
-            >
+            <a href="https://techmaster.vn/trungtam/uu-dai-va-hoan-tra-hoc-phi" target="_blank">Ưu đãi và hoàn trả học
+              phí</a>
           </li>
           <li>
-            <a
-              href="https://techmaster.vn/trungtam/bao-ve-thong-tin-khach-hang"
-              target="_blank"
-              >Bảo vệ thông tin khách hàng</a
-            >
+            <a href="https://techmaster.vn/trungtam/bao-ve-thong-tin-khach-hang" target="_blank">Bảo vệ thông tin khách
+              hàng</a>
           </li>
         </ul>
       </div>
@@ -242,9 +284,7 @@
         <ul>
           <h4 class="title">Tư vấn tuyển sinh</h4>
           <li>
-            <a href="https://www.facebook.com/TeaJeen007/" target="_blank"
-              >Tư vấn viên :</a
-            >
+            <a href="https://www.facebook.com/TeaJeen007/" target="_blank">Tư vấn viên :</a>
           </li>
           <li>Phạm Thị Mẫn - 0963023185</li>
           <li>manpham@techmaster.vn</li>
@@ -276,8 +316,9 @@
     </div>
 
 
-    
-  </div>
-</footer>
-  </body>
+
+    </div>
+  </footer>
+</body>
+
 </html>
